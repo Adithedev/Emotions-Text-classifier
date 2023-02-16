@@ -6,10 +6,10 @@ import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 
 # -------------------------------------------------------------------------MODELS--------------------------------------------------------------------#
-clf_svm = joblib.load(open("Persisted Models\svm-model.joblib"))
-clf_multinomial_nb = joblib.load(open("Persisted Models\multinomial-model.joblib"))
-clf_gradient = joblib.load(open("Persisted Models\gradient-model.joblib"))
-clf_knn = joblib.load(open("Persisted Models\knn-model.joblib"))
+clf_svm = joblib.load(open("Persisted Models/svm-model.joblib"))
+clf_multinomial_nb = joblib.load(open("Persisted Models/multinomial-model.joblib"))
+clf_gradient = joblib.load(open("Persisted Models/gradient-model.joblib"))
+clf_knn = joblib.load(open("Persisted Models/knn-model.joblib"))
 
 processed_text_df = pd.read_csv(open("Data\processed_text.csv"))
 # -------------------------------------------------------------------------MAIN()--------------------------------------------------------------------#

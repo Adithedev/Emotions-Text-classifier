@@ -2,6 +2,5 @@ joblib==1.2.0
 pandas
 numpy
 pickle
-scikit-learn
-sklearn
-sklearn.feature_extraction.text import CountVectorizer
+scikit-learn==1.1.2
+sklearn==0.0.post1

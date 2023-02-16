@@ -6,12 +6,12 @@ import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 
 # -------------------------------------------------------------------------MODELS--------------------------------------------------------------------#
-clf_svm = joblib.load(open("Persisted Models/svm-model.joblib",encoding = 'unicode_escape'),compress='gzip')
-clf_multinomial_nb = joblib.load(open("Persisted Models/multinomial-model.joblib",encoding = 'unicode_escape'),compress='gzip')
-clf_gradient = joblib.load(open("Persisted Models/gradient-model.joblib",encoding = 'unicode_escape'),compress='gzip')
-clf_knn = joblib.load(open("Persisted Models/knn-model.joblib",encoding = 'unicode_escape'),compress='gzip')
+clf_svm = joblib.load("Persisted Models/svm-model.joblib", compress='gzip')
+clf_multinomial_nb = joblib.load("Persisted Models/multinomial-model.joblib",compress='gzip')
+clf_gradient = joblib.load("Persisted Models/gradient-model.joblib",compress='gzip')
+clf_knn = joblib.load("Persisted Models/knn-model.joblib",compress='gzip')
 
-processed_text_df = pd.read_csv(open("Data/processed_text.csv",encoding = 'unicode_escape'))
+processed_text_df = pd.read_csv("Data/processed_text.csv")
 # -------------------------------------------------------------------------MAIN()--------------------------------------------------------------------#
 def main():
     st.title("Emotions NLP Text Classification")

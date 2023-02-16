@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-import plotly_express as px
 import altair as alt
 import pickle
 from sklearn.feature_extraction.text import CountVectorizer

@@ -2,8 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-from matplotlib import pyplot as plt
-from sklearn.metrics import classification_report
 import plotly_express as px
 import altair as alt
 import pickle

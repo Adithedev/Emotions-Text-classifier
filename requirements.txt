@@ -4,3 +4,4 @@ numpy
 pickle
 scikit-learn
 sklearn
+sklearn.feature_extraction.text import CountVectorizer

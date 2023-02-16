@@ -11,7 +11,7 @@ clf_multinomial_nb = joblib.load(open("Persisted Models/multinomial-model.joblib
 clf_gradient = joblib.load(open("Persisted Models/gradient-model.joblib"))
 clf_knn = joblib.load(open("Persisted Models/knn-model.joblib"))
 
-processed_text_df = pd.read_csv(open("Data\processed_text.csv"))
+processed_text_df = pd.read_csv(open("Data/processed_text.csv"))
 # -------------------------------------------------------------------------MAIN()--------------------------------------------------------------------#
 def main():
     st.title("Emotions NLP Text Classification")

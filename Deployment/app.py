@@ -6,10 +6,10 @@ import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 
 # -------------------------------------------------------------------------MODELS--------------------------------------------------------------------#
-clf_svm = joblib.load("Persisted Models/svm-model.joblib", compress='gzip')
-clf_multinomial_nb = joblib.load("Persisted Models/multinomial-model.joblib",compress='gzip')
-clf_gradient = joblib.load("Persisted Models/gradient-model.joblib",compress='gzip')
-clf_knn = joblib.load("Persisted Models/knn-model.joblib",compress='gzip')
+clf_svm = joblib.load("https://github.com/Adithegeek/Emotions-Text-classifier/blob/main/Persisted%20Models/svm-model.joblib")
+clf_multinomial_nb = joblib.load("https://github.com/Adithegeek/Emotions-Text-classifier/blob/main/Persisted%20Models/multinomial-model.joblib")
+clf_gradient = joblib.load("https://github.com/Adithegeek/Emotions-Text-classifier/blob/main/Persisted%20Models/gradient-model.joblib")
+clf_knn = joblib.load("https://github.com/Adithegeek/Emotions-Text-classifier/blob/main/Persisted%20Models/knn-model.joblib")
 
 processed_text_df = pd.read_csv("Data/processed_text.csv")
 # -------------------------------------------------------------------------MAIN()--------------------------------------------------------------------#

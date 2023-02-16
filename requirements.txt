@@ -1,4 +1,4 @@
 joblib==1.2.0
-pandas
-numpy
-pickle
+pandas==1.5.2
+numpy==1.23.5
+altair==4.2.2

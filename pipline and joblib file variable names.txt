@@ -1,0 +1,12 @@
+
+  JOBLIB FILE NAME                - PIPELINE VARIABLE
+---------------------------------------------------------
+1.svm-model.joblib                - clf_svm 
+
+2.knn-model.joblib                - clf_knn
+
+3.gradient-model.joblib           - clf_gradient
+
+4.multinomial-model.joblib        - clf_multinomial_nb
+
+5.random-forest-model.joblib      - clf_random_forest
